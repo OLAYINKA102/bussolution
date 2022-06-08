@@ -1,0 +1,25 @@
+body{
+   font-family:Arial, Helvetica, sans-serif;
+   background-color: black;
+
+
+    background-image: url("./image3.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    padding: 16px;
+    background-color: white;
+}
+input[type="text"],input[type="password"],input[type="number"],input[type="email"]{
+
+    width: 40%;
+    padding: 15px;
+    height: 5px;
+    margin: spx 0 22px 0;
+    display: inline-block;
+    border:none;
+    outline:auto;
+    background-color: rgb(242, 243, 239);
+}

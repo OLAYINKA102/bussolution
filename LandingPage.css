@@ -1,0 +1,55 @@
+
+body{
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    max-width: 700px;
+    margin:0%;
+    
+  
+    
+   
+    color:black(136, 100, 237);
+
+    background-image: url("bus1.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+h2{
+    font-size: 25px;
+    font-style:italic;
+    color: brown;
+
+}
+.text{
+    font-size: 25px;
+    font-style:italic;
+
+    
+}
+.moreText{
+    display: none;
+}
+.read-more-btn{
+    padding: 15px 60px;
+    background-color: coral;
+    color: bisque;
+    border: none;
+    font-size: 15px;
+    outline:none;
+    cursor:pointer;
+}
+.text.show-more .moreText{
+    display: inline;
+}
+.button{
+    padding: 15px 60px;
+    background-color: rgb(98, 80, 255);
+    color: bisque;
+    border: none;
+    font-size: 12px;
+    outline:none;
+    cursor:pointer;
+}
